@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="MLDotNetUWP.SamplePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MLDotNetUWP"
+    xmlns:extensions="using:Microsoft.Toolkit.Uwp.UI.Extensions"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        
+        <Style x:Key="TextBoxRegexStyle"
+           TargetType="TextBox">
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+            <Setter Property="Margin" Value="0,0,20,0" />
+        </Style>
+
+        <DataTemplate x:Key="HeaderTemplate">
+            <StackPanel>
+                <TextBlock Text="{Binding}"
+                           TextWrapping="WrapWholeWords" />
+            </StackPanel>
+        </DataTemplate>
+
+        <local:FloatToStringConverter x:Key="FloatConvert" />
+
+    </Page.Resources>
+    
+    <Grid>
+        <StackPanel Orientation="Vertical"  HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Text="ML.NET UWP Sample" Margin="0,0,0,40" FontSize="72"/>
+            <TextBlock HorizontalAlignment="Center" Text="Iris Flower Species Prediction" FontSize="36" />
+            <TextBlock HorizontalAlignment="Center" Text="Please enter lengths and widths in centimeters and press Predict." FontSize="24" />
+            <TextBlock HorizontalAlignment="Center" Text="The prediction will appear in the Status area below.." FontSize="24" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                
+                <TextBox x:Name="SepalLength" extensions:TextBoxRegex.ValidationMode="Dynamic" extensions:TextBoxRegex.ValidationType="Decimal"
+                 Header="Sepal Length" Text="{x:Bind SepalLengthValue, Mode=TwoWay, Converter={StaticResource FloatConvert}}"
+                 HeaderTemplate="{StaticResource HeaderTemplate}"
+                 Style="{StaticResource TextBoxRegexStyle}" />
+
+                <TextBox x:Name="SepalWidth" extensions:TextBoxRegex.ValidationMode="Dynamic" extensions:TextBoxRegex.ValidationType="Decimal"
+                 Header="Sepal Width" Text="{x:Bind SepalWidthValue, Mode=TwoWay, Converter={StaticResource FloatConvert}}"
+                 HeaderTemplate="{StaticResource HeaderTemplate}"
+                 Style="{StaticResource TextBoxRegexStyle}" />
+
+                <TextBox x:Name="PetalLength" extensions:TextBoxRegex.ValidationMode="Dynamic" extensions:TextBoxRegex.ValidationType="Decimal"
+                 Header="Petal Length" Text="{x:Bind PetalLengthValue, Mode=TwoWay, Converter={StaticResource FloatConvert}}"
+                 HeaderTemplate="{StaticResource HeaderTemplate}"
+                 Style="{StaticResource TextBoxRegexStyle}" />
+
+                <TextBox x:Name="PetalWidth" extensions:TextBoxRegex.ValidationMode="Dynamic" extensions:TextBoxRegex.ValidationType="Decimal"
+                 Header="Petal Width" Text="{x:Bind PetalWidthValue, Mode=TwoWay, Converter={StaticResource FloatConvert}}"
+                 HeaderTemplate="{StaticResource HeaderTemplate}"
+                 Style="{StaticResource TextBoxRegexStyle}" />
+                
+            </StackPanel>
+            <Button Margin="0,20,0,0" HorizontalAlignment="Center" Content="BuildModel" Click="Button_Click" />
+            <Button Margin="0,20,0,0" x:Name="Predict" HorizontalAlignment="Center" Content="Predict" Command="{x:Bind InvokeIrisPrediction}"/>
+        </StackPanel>
+    </Grid>
+</Page>
