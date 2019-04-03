@@ -164,7 +164,7 @@ namespace MLDotNetWin32
 
             switch (verb)
             {
-                // we received a request to get the Startup program names
+                // we received a request to make a prediction
                 case "makePrediction":
                     {
                         try
@@ -201,6 +201,7 @@ namespace MLDotNetWin32
                         break;
                     }
 
+                // we received a request to build the model
                 case "buildModel":
                     {
                         try
@@ -233,7 +234,7 @@ namespace MLDotNetWin32
                             // numbers can be processed during model training.
                             // Add a learning algorithm to the pipeline. e.g.(What type of iris is this?)
                             // Convert the Label back into original text (after converting to number in step 3)
-                            var pipeline = mlContext.Transforms.Conversion.MapValueToKey("Label")
+                            var pipeline = mlContext.Transforms.Conversion.MapValueToKey("Label")                            
                                 .Append(mlContext.Transforms.Concatenate("Features", "SepalLength", "SepalWidth", "PetalLength", "PetalWidth"))
                                 .AppendCacheCheckpoint(mlContext)
                                 .Append(mlContext.MulticlassClassification.Trainers.StochasticDualCoordinateAscent(labelColumnName: "Label", featureColumnName: "Features"))
