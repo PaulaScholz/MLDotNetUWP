@@ -132,9 +132,10 @@ namespace MLDotNetUWP
 
                     if("PredictionResult" == verb)
                     {
-                        string prediction = (string)response.Message["Prediction"];
+                        uint cluster = (uint)response.Message["Cluster"];
+                        string distances = (string)response.Message["Distances"];
 
-                        MainPage.Current?.NotifyUser(string.Format("Iris Prediction: {0}", prediction), NotifyType.StatusMessage);
+                        MainPage.Current?.NotifyUser(string.Format("Cluster: {0}, Distances: {1}", cluster,distances), NotifyType.StatusMessage);
                     }
                     else if ("PredictionError" == verb)
                     {
@@ -168,6 +169,12 @@ namespace MLDotNetUWP
         private async void SamplePage_Loaded(object sender, RoutedEventArgs e)
         {
             ReadIrisData();
+
+            // set tutorial default values into textboxes
+            SepalLengthValue = 5.1f;
+            SepalWidthValue = 3.5f;
+            PetalLengthValue = 1.4f;
+            PetalWidthValue = 0.2f;
 
             // Launch the MLDotNetWin32 background process. When launched, it will build a Prediction model
             // for Iris flowers and send prediction results back to us through our Connection_RequestReceived event handler.

@@ -58,10 +58,19 @@ namespace MLDotNetWin32
         }
 
         // IrisPrediction is the result returned from prediction operations
-        public class IrisPrediction
+        //public class IrisPrediction
+        //{
+        //    //[ColumnName("PredictedLabel")]
+        //    public string PredictedLabels;
+        //}
+
+        public class ClusterPrediction
         {
-            //[ColumnName("PredictedLabel")]
-            public string PredictedLabels;
+            [ColumnName("PredictedLabel")]
+            public uint PredictedClusterId;
+
+            [ColumnName("Score")]
+            public float[] Distances;
         }
 
         // the AppServiceConnection to our UWP app
@@ -74,7 +83,8 @@ namespace MLDotNetWin32
         private static MLContext mlContext = new MLContext();
 
         // create a ML.NET model
-        private static TransformerChain<Microsoft.ML.Transforms.KeyToValueMappingTransformer> model;
+        //private static TransformerChain<Microsoft.ML.Transforms.KeyToValueMappingTransformer> model;
+        private static TransformerChain<ClusteringPredictionTransformer<Microsoft.ML.Trainers.KMeansModelParameters>> model;
 
         private static List<IrisData> irisDataList = new List<IrisData>();
 
@@ -180,17 +190,30 @@ namespace MLDotNetWin32
 
                             // Use your model to make a prediction
                             // You can change these numbers to test different predictions
-                            var prediction = model.CreatePredictionEngine<IrisData, IrisPrediction>(mlContext).Predict(
-                                new IrisData()
-                                {
-                                    SepalLength = sl,
-                                    SepalWidth = sw,
-                                    PetalLength = pl,
-                                    PetalWidth = pw,
-                                });
+                            //var prediction = model.CreatePredictionEngine<IrisData, IrisPrediction>(mlContext).Predict(
+                            //    new IrisData()
+                            //    {
+                            //        SepalLength = sl,
+                            //        SepalWidth = sw,
+                            //        PetalLength = pl,
+                            //        PetalWidth = pw,
+                            //    });
+
+                            IrisData inputToTest = new IrisData()
+                            {
+                                SepalLength = sl,
+                                SepalWidth = sw,
+                                PetalLength = pl,
+                                PetalWidth = pw,
+                            };
+
+                            var predictor = mlContext.Model.CreatePredictionEngine<IrisData, ClusterPrediction>(model);
+
+                            var prediction = predictor.Predict(inputToTest);
 
                             // add the prediction to our response
-                            returnData.Add("Prediction", prediction.PredictedLabels);
+                            returnData.Add("Cluster", prediction.PredictedClusterId);
+                            returnData.Add("Distances", string.Join(" ", prediction.Distances));
                         }
                         catch (Exception ex)
                         {
@@ -227,20 +250,31 @@ namespace MLDotNetWin32
                                 irisDataList.Add(entry);
                             }
 
-                            IDataView trainingDataView = mlContext.Data.LoadFromEnumerable<IrisData>(irisDataList);
+                            // If working in Visual Studio, make sure the 'Copy to Output Directory'
+                            // property of iris-data.txt is set to 'Copy always'
+                            //IDataView trainingDataView = mlContext.Data.LoadFromTextFile<IrisData>(path: @"MLDotNetWin32\iris-data.txt", hasHeader: false, separatorChar: ',');
+
+
+                            Microsoft.ML.IDataView trainingDataView = mlContext.Data.LoadFromEnumerable<IrisData>(irisDataList);
 
                             // Transform your data and add a learner
                             // Assign numeric values to text in the "Label" column, because only
                             // numbers can be processed during model training.
                             // Add a learning algorithm to the pipeline. e.g.(What type of iris is this?)
                             // Convert the Label back into original text (after converting to number in step 3)
-                            var pipeline = mlContext.Transforms.Conversion.MapValueToKey("Label")                            
-                                .Append(mlContext.Transforms.Concatenate("Features", "SepalLength", "SepalWidth", "PetalLength", "PetalWidth"))
-                                .AppendCacheCheckpoint(mlContext)
-                                .Append(mlContext.MulticlassClassification.Trainers.StochasticDualCoordinateAscent(labelColumnName: "Label", featureColumnName: "Features"))
-                                .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel"));
+                            //var pipeline = mlContext.Transforms.Conversion.MapValueToKey("Label")                            
+                            //    .Append(mlContext.Transforms.Concatenate("Features", "SepalLength", "SepalWidth", "PetalLength", "PetalWidth"))
+                            //    .AppendCacheCheckpoint(mlContext)
+                            //    .Append(mlContext.MulticlassClassification.Trainers.StochasticDualCoordinateAscent(labelColumnName: "Label", featureColumnName: "Features"))
+                            //    .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel"));
+
+                            string featuresColumnName = "Label";
+                            var pipeline = mlContext.Transforms
+                                .Concatenate(featuresColumnName, "SepalLength", "SepalWidth", "PetalLength", "PetalWidth")
+                                .Append(mlContext.Clustering.Trainers.KMeans(featuresColumnName, numberOfClusters: 3));
 
                             // Train your model based on the data set
+                            //model = pipeline.Fit(trainingDataView);
                             model = pipeline.Fit(trainingDataView);
 
                             // add the prediction to our response
