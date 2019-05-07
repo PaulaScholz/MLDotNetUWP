@@ -106,11 +106,11 @@ namespace MLDotNetWin32
             // Select the Application tab and change the Output Type from Windows Application to 
             // Console Application.  A "Windows Application" is simply a headless console app.
 
-            Console.WriteLine("Detatch your debugger from the UWP app and attach it to MLDotNetWin32.");
-            Console.WriteLine("Set your breakpoint in MLDotNetWin32 and then press Enter to continue.");
-            Console.ReadLine();
+            //Console.WriteLine("Detatch your debugger from the UWP app and attach it to MLDotNetWin32.");
+            //Console.WriteLine("Set your breakpoint in MLDotNetWin32 and then press Enter to continue.");
+            //Console.ReadLine();
 
-            Console.WriteLine("Got to here");
+            //Console.WriteLine("Got to here");
 
             connection.AppServiceName = "CommunicationService";
             connection.PackageFamilyName = Windows.ApplicationModel.Package.Current.Id.FamilyName;
