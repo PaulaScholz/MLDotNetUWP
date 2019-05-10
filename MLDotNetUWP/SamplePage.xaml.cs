@@ -219,7 +219,8 @@ namespace MLDotNetUWP
                     }
                     else
                     {
-                        MainPage.Current?.NotifyUser("Iris model build failure.", NotifyType.ErrorMessage);
+                        string exceptionMessage = (string)response.Message["exceptionMessage"];
+                        MainPage.Current?.NotifyUser(string.Format("Iris model build failure. Message {0}", exceptionMessage), NotifyType.ErrorMessage);
                     }
                 }
                 else
@@ -283,6 +284,11 @@ namespace MLDotNetUWP
             }
         }
 
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            await BuildModel();
+        }
+
         #region PropertyChange Notifications
         public event PropertyChangedEventHandler PropertyChanged;
         protected void RaisePropertyChanged(string name)
@@ -308,10 +314,5 @@ namespace MLDotNetUWP
             RaisePropertyChanged(propertyName);
         }
         #endregion
-
-        private async void Button_Click(object sender, RoutedEventArgs e)
-        {
-            await BuildModel();
-        }
     }
 }

@@ -80,8 +80,9 @@ namespace MLDotNetWin32
         // HRESULT 80004005 is E_FAIL
         const int E_FAIL = unchecked((int)0x80004005);
 
-        // Create a ML.NET environment
-        private static MLContext mlContext = new MLContext();
+        // Create a 'seeded' ML.NET environment for deterministic results each run
+        // https://www.quora.com/What-does-the-seed-value-actually-mean-in-machine-learning-algorithm
+        private static MLContext mlContext = new MLContext(seed:1);
 
         // create a ML.NET model, commented out example is from ML.net 0.11
         //private static TransformerChain<Microsoft.ML.Transforms.KeyToValueMappingTransformer> model;
@@ -235,6 +236,9 @@ namespace MLDotNetWin32
 
                             // build the List<IrisData>, which is an IEnumerable
 
+                            // clear the list of data from previous model builds
+                            irisDataList.Clear();
+
                             var records = contents.Split(new[] { Environment.NewLine }, StringSplitOptions.None);
 
                             foreach(var record in records)
@@ -280,12 +284,13 @@ namespace MLDotNetWin32
                             // Train your model based on the data set
                             model = pipeline.Fit(trainingDataView);
 
-                            // add the prediction to our response
+                            // let UWP know our model built correctly
                             returnData.Add("verb", "modelOk");
                         }
                         catch (Exception ex)
                         {
                             returnData.Add("verb", "modelFailure");
+                            returnData.Add("exceptionMessage", ex.Message);
                         }
 
                         break;
