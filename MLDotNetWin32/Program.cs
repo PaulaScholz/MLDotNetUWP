@@ -57,6 +57,7 @@ namespace MLDotNetWin32
             public string Label;
         }
 
+        // this is from ML.Net 0.11
         // IrisPrediction is the result returned from prediction operations
         //public class IrisPrediction
         //{
@@ -82,7 +83,7 @@ namespace MLDotNetWin32
         // Create a ML.NET environment
         private static MLContext mlContext = new MLContext();
 
-        // create a ML.NET model
+        // create a ML.NET model, commented out example is from ML.net 0.11
         //private static TransformerChain<Microsoft.ML.Transforms.KeyToValueMappingTransformer> model;
         private static TransformerChain<ClusteringPredictionTransformer<Microsoft.ML.Trainers.KMeansModelParameters>> model;
 
@@ -262,19 +263,21 @@ namespace MLDotNetWin32
                             // numbers can be processed during model training.
                             // Add a learning algorithm to the pipeline. e.g.(What type of iris is this?)
                             // Convert the Label back into original text (after converting to number in step 3)
+                            //
+                            // This code is from the old tutorial in ML.net version 0.11
                             //var pipeline = mlContext.Transforms.Conversion.MapValueToKey("Label")                            
                             //    .Append(mlContext.Transforms.Concatenate("Features", "SepalLength", "SepalWidth", "PetalLength", "PetalWidth"))
                             //    .AppendCacheCheckpoint(mlContext)
                             //    .Append(mlContext.MulticlassClassification.Trainers.StochasticDualCoordinateAscent(labelColumnName: "Label", featureColumnName: "Features"))
                             //    .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel"));
 
+                            // this is the new ML.Net 1.0 way of doing things.
                             string featuresColumnName = "Label";
                             var pipeline = mlContext.Transforms
                                 .Concatenate(featuresColumnName, "SepalLength", "SepalWidth", "PetalLength", "PetalWidth")
                                 .Append(mlContext.Clustering.Trainers.KMeans(featuresColumnName, numberOfClusters: 3));
 
                             // Train your model based on the data set
-                            //model = pipeline.Fit(trainingDataView);
                             model = pipeline.Fit(trainingDataView);
 
                             // add the prediction to our response

@@ -192,10 +192,9 @@ namespace MLDotNetUWP
             StorageFile irisFile = await StorageFile.GetFileFromApplicationUriAsync(irisUri);
 
             irisContents = await FileIO.ReadTextAsync(irisFile);
-
         }
 
-        public async void BuildModel()
+        public async Task BuildModel()
         {
             // no need to open a connection, if we got this far we have one
             ValueSet valueSet = new ValueSet();
@@ -312,7 +311,7 @@ namespace MLDotNetUWP
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            BuildModel();
+            await BuildModel();
         }
     }
 }

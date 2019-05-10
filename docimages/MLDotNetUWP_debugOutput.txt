@@ -1,0 +1,371 @@
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\MLDotNetUWP.exe'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreRuntime.2.2_2.2.27404.2_x64__8wekyb3d8bbwe\uwphost.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.VCLibs.140.00.Debug_14.0.27508.1_x64__8wekyb3d8bbwe\vcruntime140_app.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreRuntime.2.2_2.2.27404.2_x64__8wekyb3d8bbwe\coreclr.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\gdi32full.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\msvcp_win.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\win32u.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. 
+The thread 0x2554 has exited with code 0 (0x0).
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreRuntime.2.2_2.2.27404.2_x64__8wekyb3d8bbwe\System.Private.CoreLib.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: DefaultDomain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreRuntime.2.2_2.2.27404.2_x64__8wekyb3d8bbwe\System.Private.CoreLib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreRuntime.2.2_2.2.27404.2_x64__8wekyb3d8bbwe\clrjit.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\entrypoint\MLDotNetUWP.exe'. 
+'MLDotNetUWP.exe' (Win32): Unloaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\entrypoint\MLDotNetUWP.exe'
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\entrypoint\MLDotNetUWP.exe'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\entrypoint\MLDotNetUWP.exe'. Symbols loaded.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\System.Runtime.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\System.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\WinTypes.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\WinMetadata\Windows.winmd'. Module was built without symbols.
+'MLDotNetUWP.exe' (Win32): Unloaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\WinMetadata\Windows.winmd'
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\WinMetadata\Windows.winmd'. Module was built without symbols.
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\WinMetadata\Windows.winmd'. Module was built without symbols.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\mscorlib.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.InteropServices.WindowsRuntime.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.InteropServices.WindowsRuntime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.UI.Xaml.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\BCP47Langs.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\dcomp.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\CoreMessaging.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\iertutil.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\dxgi.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\twinapi.appcore.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\rmclient.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.UI.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\InputHost.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\TextInputFramework.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\d2d1.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\CoreUIComponents.dll'. 
+'MLDotNetUWP.exe' (Win32): Unloaded 'C:\Windows\System32\CoreUIComponents.dll'
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\d3d11.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\propsys.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\OneCoreUAPCommonProxyStub.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\urlmon.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\windows.storage.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ResourcePolicyClient.dll'. 
+'MLDotNetUWP.exe' (Win32): Unloaded 'C:\Windows\System32\ResourcePolicyClient.dll'
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvdm.inf_amd64_786f30519164c09a\nvdlistx.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\MrmCoreR.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_956e213c1cd64539\igd10iumd64.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ncrypt.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ntasn1.dll'. 
+'MLDotNetUWP.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvdm.inf_amd64_786f30519164c09a\nvdlistx.dll'
+The thread 0x34e8 has exited with code 0 (0x0).
+minio\profapi\registry.cpp(48)\profapi.dll!00007FFD7B2F4D19: (caller: 00007FFD6C6ABDCC) ReturnHr(1) tid(fac) 80070005 Access is denied.
+minio\profapi\registry.cpp(48)\profapi.dll!00007FFD7B2F4D19: (caller: 00007FFD6C6ABDCC) ReturnHr(2) tid(fac) 80070005 Access is denied.
+minio\profapi\registry.cpp(48)\profapi.dll!00007FFD7B2F4D19: (caller: 00007FFD6C6ABDCC) ReturnHr(3) tid(fac) 80070005 Access is denied.
+windows\advcore\winrt\uisettings\uisettings.cpp(767)\Windows.UI.dll!00007FFD6C5864F7: (caller: 00007FFD6AC00379) LogHr(1) tid(fac) 80070002 The system cannot find the file specified.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\BCP47mrm.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_956e213c1cd64539\igc64.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.Shell.ServiceHostBuilder.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\DWrite.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\execmodelproxy.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\UiaManager.dll'. 
+The thread 0x4860 has exited with code 0 (0x0).
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.UI.Core.TextInput.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.UI.Immersive.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\DataExchange.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.WindowsRuntime.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.WindowsRuntime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Numerics.Vectors.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Numerics.Vectors.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.WindowsRuntime.UI.Xaml.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.WindowsRuntime.UI.Xaml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.UI.Xaml.Markup.winmd'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.UI.Xaml.Markup.winmd'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Reflection.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Reflection.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Tasks.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Tasks.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.ApplicationModel.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Reflection.Extensions.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Reflection.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Private.Uri.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Private.Uri.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Graphics.Canvas.dll'. 
+'MLDotNetUWP.exe' (Win32): Unloaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Graphics.Canvas.dll'
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Toolkit.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Toolkit.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Toolkit.Uwp.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Toolkit.Uwp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Toolkit.Uwp.UI.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Microsoft.Toolkit.Uwp.UI.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Newtonsoft.Json.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\dev\MLDotNetUWP\Packaging\bin\x64\Debug\AppX\Newtonsoft.Json.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\Microsoft.Win32.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\Microsoft.Win32.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 0x10cc has exited with code 0 (0x0).
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\netstandard.dll'. Module was built without symbols.
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\netstandard.dll'. Module was built without symbols.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.AppContext.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.AppContext.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Buffers.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Buffers.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.Concurrent.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.Concurrent.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.Immutable.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.Immutable.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.NonGeneric.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.NonGeneric.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.Specialized.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Collections.Specialized.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.EventBasedAsync.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.EventBasedAsync.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.TypeConverter.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ComponentModel.TypeConverter.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Console.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Console.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Data.Common.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Data.Common.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Contracts.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Contracts.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Debug.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Debug.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.FileVersionInfo.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.FileVersionInfo.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Process.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Process.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.StackTrace.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.StackTrace.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.TextWriterTraceListener.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.TextWriterTraceListener.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Tools.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Tools.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.TraceSource.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.TraceSource.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Tracing.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Diagnostics.Tracing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Drawing.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Drawing.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Dynamic.Runtime.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Dynamic.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Globalization.Calendars.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Globalization.Calendars.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Globalization.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Globalization.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Globalization.Extensions.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Globalization.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.Compression.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.Compression.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.Compression.ZipFile.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.Compression.ZipFile.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.DriveInfo.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.DriveInfo.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.Watcher.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.FileSystem.Watcher.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.IsolatedStorage.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.IsolatedStorage.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.MemoryMappedFiles.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.MemoryMappedFiles.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.Pipes.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.Pipes.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.UnmanagedMemoryStream.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.IO.UnmanagedMemoryStream.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.Expressions.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.Expressions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.Parallel.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.Parallel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.Queryable.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Linq.Queryable.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Memory.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Memory.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 0x11f4 has exited with code 0 (0x0).
+The thread 0x2e78 has exited with code 0 (0x0).
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Http.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Http.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.NameResolution.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.NameResolution.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.NetworkInformation.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.NetworkInformation.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Ping.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Ping.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Requests.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Requests.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Security.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Security.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Sockets.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.Sockets.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.WebHeaderCollection.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.WebHeaderCollection.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.WebSockets.Client.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.WebSockets.Client.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.WebSockets.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Net.WebSockets.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ObjectModel.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ObjectModel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Reflection.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Reflection.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Resources.Reader.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Resources.Reader.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Resources.ResourceManager.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Resources.ResourceManager.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Resources.Writer.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Resources.Writer.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.CompilerServices.Unsafe.dll'. Module was built without symbols.
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.CompilerServices.Unsafe.dll'. Module was built without symbols.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.CompilerServices.VisualC.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.CompilerServices.VisualC.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Extensions.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Handles.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Handles.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.InteropServices.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.InteropServices.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.InteropServices.RuntimeInformation.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.InteropServices.RuntimeInformation.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Numerics.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Numerics.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Formatters.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Formatters.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Json.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Json.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Xml.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Runtime.Serialization.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Claims.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Claims.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Algorithms.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Algorithms.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Csp.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Csp.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Encoding.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Encoding.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Primitives.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.Primitives.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.X509Certificates.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Cryptography.X509Certificates.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Principal.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.Principal.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.SecureString.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Security.SecureString.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Text.Encoding.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Text.Encoding.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Text.Encoding.Extensions.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Text.Encoding.Extensions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Text.RegularExpressions.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Text.RegularExpressions.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Overlapped.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Overlapped.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Tasks.Dataflow.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Tasks.Dataflow.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Tasks.Parallel.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Tasks.Parallel.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Thread.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Thread.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.ThreadPool.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.ThreadPool.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Timer.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Threading.Timer.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ValueTuple.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.ValueTuple.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.ReaderWriter.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.ReaderWriter.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XDocument.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XDocument.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XmlDocument.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XmlDocument.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XmlSerializer.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XmlSerializer.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XPath.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XPath.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XPath.XDocument.dll'. 
+'MLDotNetUWP.exe' (CoreCLR: CoreCLR_UWP_Domain): Loaded 'C:\Program Files\WindowsApps\Microsoft.NET.CoreFramework.Debug.2.2_2.2.27505.2_x64__8wekyb3d8bbwe\System.Xml.XPath.XDocument.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.UI.Xaml.Controls.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.Globalization.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\directmanipulation.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\threadpoolwinrt.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\msftedit.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\globinputhost.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\daxexec.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\fltLib.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\container.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\IPHLPAPI.DLL'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Users\v-pauls\AppData\Local\Temp\VisualStudio.XamlDiagnostics.8769c973-b9cd-45d8-8b6e-913d384d48de_1.0.0.0_x64__3sbe9sd0322hy\Microsoft.VisualStudio.DesignTools.UwpTap.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\Windows.Graphics.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\biwinrt.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\AppContracts.dll'. 
+Exception thrown at 0x00007FFD7B3A9129 in MLDotNetUWP.exe: Microsoft C++ exception: EETypeLoadException at memory location 0x000000708E4FB520.
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\WindowsCodecs.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\xmllite.dll'. 
+The thread 0x1734 has exited with code 0 (0x0).
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\twinapi.dll'. 
+'MLDotNetUWP.exe' (Win32): Loaded 'C:\Windows\System32\ninput.dll'. 
+The thread 0x4c8c has exited with code 0 (0x0).
+The thread 0xb1c has exited with code 0 (0x0).
+The thread 0xd7c has exited with code 0 (0x0).
+The thread 0x2314 has exited with code 0 (0x0).
+The program '[21780] MLDotNetWin32.exe' has exited with code 0 (0x0).
+The thread 0x52b0 has exited with code 0 (0x0).
+The thread 0x54e8 has exited with code 0 (0x0).
+The thread 0x54f4 has exited with code 0 (0x0).
+The thread 0x2d34 has exited with code 0 (0x0).
+The thread 0x5088 has exited with code 0 (0x0).
+The thread 0x54f0 has exited with code 0 (0x0).
+The thread 0x296c has exited with code 1 (0x1).
+The thread 0x559c has exited with code 1 (0x1).
+The thread 0x5598 has exited with code 1 (0x1).
+The thread 0x3a34 has exited with code 1 (0x1).
+The thread 0x55a8 has exited with code 1 (0x1).
+The thread 0xfac has exited with code 1 (0x1).
+The thread 0x2848 has exited with code 1 (0x1).
+The thread 0xe88 has exited with code 1 (0x1).
+The thread 0x54ec has exited with code 1 (0x1).
+The thread 0x3100 has exited with code 1 (0x1).
+The thread 0x53c8 has exited with code 1 (0x1).
+The thread 0x55a0 has exited with code 1 (0x1).
+The thread 0x578c has exited with code 1 (0x1).
+The thread 0x4218 has exited with code 1 (0x1).
+The thread 0x55a4 has exited with code 1 (0x1).
+The program '[19852] MLDotNetUWP.exe' has exited with code 1 (0x1).
