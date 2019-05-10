@@ -111,7 +111,7 @@ The next example shows a different result, with the same input:
 And again, with a Cluster 3 result:
 ![MLDotNetUWP Cluster 3 output after model rebuild](/docimages/MLDotNetUWP_Cluster3Output_afterModelRebuild.PNG "Cluster 3 output after model rebuild")
 
-Different results given the same input are not expected.
+Different results given the same input are not expected.  **Note that while the Cluster predictions are different in each example, the Distance values are almost the same, but in different order.**
 
 An example of the EETypeLoadException in the Debug output is shown below:
 ![EETypeLoadException](/docimages/MLDotNetUWP_debugOutput_EETypeLoadException.PNG)
