@@ -33,7 +33,7 @@ internal static readonly IrisData Setosa = new IrisData
 }
 ```
 
-The iris flower data is passed from the UWP application via an `AppServiceConnection` because the ML.Net file system functions will not operate in the context of a UWP appx package.  So, we read the iris data via UWP Storage functions in the UWP app, pass this data to the Win32 app via the `AppServiceConnection` and inside the `MLDotNetWin32` program we create a `List<IrisData>` to act as an `IEnumerable` to create our ML.Net `IDataView` object.  `ReadIrisData()` is called from the `SamplePage.Loaded()` event handler, and the code that calls `MLDotNetWin32` in in the `BuildModel()` button event handler. 
+The iris flower data is passed from the UWP application via an `AppServiceConnection` because the ML.Net file system functions will not operate in the context of a UWP appx package.  So, we read the iris data via UWP Storage functions in the UWP app, pass this data to the Win32 app via the `AppServiceConnection` and inside the `MLDotNetWin32` program we create a `List<IrisData>` to act as an `IEnumerable` to create our ML.Net `IDataView` object.  `ReadIrisData()` is called from the `SamplePage.Loaded()` event handler, and the code that calls `MLDotNetWin32` is in the `BuildModel()` button event handler.
 
 ```csharp
         /// <summary>
