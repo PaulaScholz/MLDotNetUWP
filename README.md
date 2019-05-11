@@ -5,7 +5,7 @@ In March, 2019, it was mentioned in an ML.Net presentation by Microsoft Principa
 
 Microsoft has provided an official ML.Net 1.0 [Iris Classification](https://github.com/dotnet/machinelearning-samples/tree/master/samples/csharp/getting-started/MulticlassClassification_Iris "Multiclass Iris Classification") console application sample that provides more information on this topic.
 
-When originally built using ML.Net version 0.11, the sample did run but always provided blank predictions, regardless of the input used.  However, when the sample was upgraded to the current release version, ML.Net 1.0, and the `MLDotNetWin32` code updated to the current API, the application did start to provide predictions.  There are several problems however, to wit;
+When originally built using ML.Net version 0.11, this UWP sample did run but always provided blank predictions, regardless of the input used.  However, when the sample was upgraded to the current release version, ML.Net 1.0, and the `MLDotNetWin32` code updated to the current API, the application did start to provide predictions.  There are several problems however, to wit;
 
 * There are EETypeLoadExceptions when loading code that uses ML.Net in a UWP environment, both with the 0.11 version and the released 1.0 version.
 * Predictions are only consistent with the ML.Net tutorial results some of the time, but it is perfectly normal in machine learning that different trainings using the same algorithm and data might sometimes get different results.
@@ -287,7 +287,7 @@ Each time the model is built and run, different prediction results may be return
 
 ![MLDotNetUWP Cluster 2 output after model rebuild](/docimages/MLDotNetUWP_Cluster2Output_afterModelRebuild.PNG "Cluster 2 output after model rebuild, correct result")
 
-Sometimes you will get a different Cluster result, with the same input:
+Sometimes you will get a different Cluster result after rebuilding the model, with the same Petal and Sepal input:
 
 ![MLDotNetUWP Cluster 1 output after model rebuild](/docimages/MLNetUWPDemo_screenshot_wrongAnswer.PNG "Cluster 1 output after model rebuild, wrong result")
 
@@ -297,6 +297,8 @@ An example of the EETypeLoadException in the Debug output is shown below:
 ![EETypeLoadException](/docimages/MLDotNetUWP_debugOutput_EETypeLoadException.PNG)
 
 A text file of the debug output is provided in the `docimages` folder accompanying the sample.
+
+ML.Net is a promising addition to the Microsoft family of machine learning solutions and when it does eventually support the Universal Windows Platform, this sample may provide a point of departure for your own applications.
 
 Paula Scholz,
 Windows Developer Incubation and Learning,
