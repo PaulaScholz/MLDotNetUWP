@@ -38,6 +38,17 @@ namespace MLDotNetUWP
         // the OnBackgroundActivated handler, fired when the fullTrustProcess opens a connection to us.
         public static SamplePage Current;
 
+        private bool modelHasBeenBuilt = false;
+        public bool ModelHasBeenBuilt
+        {
+            get { return modelHasBeenBuilt; }
+            set
+            {
+                Set(ref modelHasBeenBuilt, value);
+                InvokeIrisPrediction.RaiseCanExecuteChanged();
+            }
+        }
+
         private float sepalWidthValue = 0;
         public float SepalWidthValue
         {
@@ -100,7 +111,7 @@ namespace MLDotNetUWP
 
         public bool CanInvokePrediction()
         {
-            return PetalLengthValue > 0 && PetalWidthValue > 0 && SepalLengthValue > 0 && SepalWidthValue > 0;
+            return PetalLengthValue > 0 && PetalWidthValue > 0 && SepalLengthValue > 0 && SepalWidthValue > 0 && modelHasBeenBuilt;
         }
 
         /// <summary>
@@ -216,6 +227,9 @@ namespace MLDotNetUWP
                     if ("modelOk" == verb)
                     {
                         MainPage.Current?.NotifyUser("Iris model built successfully.", NotifyType.StatusMessage);
+
+                        // enable the Predict button if we also have Petal and Sepal values
+                        ModelHasBeenBuilt = true;
                     }
                     else
                     {
@@ -230,7 +244,7 @@ namespace MLDotNetUWP
             }
             catch (Exception ex)
             {
-                MainPage.Current?.NotifyUser(string.Format("(Exception in ReadIrisData. Message {0}", ex.Message.ToString()), NotifyType.ErrorMessage);
+                MainPage.Current?.NotifyUser(string.Format("(Exception in BuildModel. Message {0}", ex.Message.ToString()), NotifyType.ErrorMessage);
             }
         }
 
