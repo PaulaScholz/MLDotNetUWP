@@ -151,7 +151,7 @@ And, in `MLDotNetWin32`, inside the `Connection_RequestReceived` handler that ac
                             // Train your model based on the data set
                             model = pipeline.Fit(trainingDataView);
 
-                            // add the prediction to our response
+                            // let UWP know our model built correctly
                             returnData.Add("verb", "modelOk");
                         }
                         catch (Exception ex)
